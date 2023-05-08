@@ -1,5 +1,5 @@
 Esse é um teste de um site exemplo que nós temos.
-O foco desse teste é avaliar o conhecimento de html e css, Layout. 
+O foco desse teste é avaliar o conhecimento de html e css - RESPONSIVO, Layout. 
 E não de Vue/React;
 
 Requisitos:
