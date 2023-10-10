@@ -1,23 +1,52 @@
-Esse é um teste de um site exemplo que nós temos.
-O foco desse teste é avaliar o conhecimento de html e css - RESPONSIVO, Layout. 
+# encinterativa
 
+This template should help get you started developing with Vue 3 in Vite.
 
-Requisitos:
- - Montar a homepage utilizando html e css;
- - Caso queira utilizar Vue.js está livre o uso.
+## Recommended IDE Setup
 
-Material:
-- todo o material da home está na pasta material_recortado;
-- na raiz tem o arquivo de referencia para utilização do Layout;
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Dicas:
-- O Layout é feito dentro das grids do Bootstrap, logo, pode ajudar na montagem do home page;
+## Type Support for `.vue` Imports in TS
 
-Entrega:
-- Pode dar um fork no repositório e fazer o PR;
-- Pode clonar e disponibilizar dentro do seu próprio github;
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-Prazo de entrega:
-- irei avaliar os commits até o dia 17/10;
-- dentro de dois dias retorno com o feedback.
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
