@@ -1,0 +1,32 @@
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.headermenu {
+  display: block;
+  background-color: yellow;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.headermenu a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px 5px 0 0;
+  margin: 5px 5px 0 0;
+}
+
+.headermenu a:hover {
+  color: black;
+}
+
+.headermenu > .consumer a {
+  background-color: blue;
+  color: yellow;
+}
