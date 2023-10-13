@@ -6,7 +6,7 @@
       >
         <ul class="flex items-center gap-5">
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Link 1</a>
+            <a class="hover:text-cyan-500 transition-colors" href="">Home</a>
           </li>
           <li>
             <a class="hover:text-cyan-500 transition-colors" href="">Link 2</a>
