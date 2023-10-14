@@ -1,0 +1,21 @@
+.background-textured {
+  background-image: url('@/assets/img/bg/bg-azul.jpg');
+  background-position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.background-external-solid {
+  background-color: #074a75;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.background-internal-solid {
+  background-color: #122641;
+  display: block;
+  width: 100%;
+  height: 100%;
+}

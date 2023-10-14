@@ -1,24 +1,49 @@
 <template>
-  <div class="relative bottom-0 top-0">
-    <div class="shadow bg-white">
+  <div class="relative bottom-0 top-0" style="margin-top: -60px">
+    <div class="shadow bg-yellow-300">
       <div
-        class="container text-blue-500 h-16 mx-auto px-5 flex items-center justify-center"
+        class="container text-blue-600 h-16 mx-auto flex items-center justify-center"
       >
-        <ul class="flex items-center gap-5">
+        <ul class="font-semibold flex items-center gap-10">
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Home</a>
+            <a class="hover:text-blue-900 transition-colors" href="">Home</a>
           </li>
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Link 2</a>
+            <a class="hover:text-blue-900 transition-colors" href=""
+              >Como Participar</a
+            >
           </li>
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Link 3</a>
+            <a class="hover:text-blue-900 transition-colors" href="">Prêmios</a>
           </li>
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Link 4</a>
+            <a class="hover:text-blue-900 transition-colors" href=""
+              >Produtos Participantes</a
+            >
           </li>
           <li>
-            <a class="hover:text-cyan-500 transition-colors" href="">Link 5</a>
+            <a class="hover:text-blue-900 transition-colors" href=""
+              >Receitas</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-blue-900 transition-colors" href=""
+              >Pílulas NBA</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-blue-900 transition-colors" href=""
+              >Ganhadores</a
+            >
+          </li>
+          <li>
+            <ul>
+              <li>
+                <a class="hover:text-blue-900 transition-colors" href=""
+                  >Olá, Ana</a
+                >
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
