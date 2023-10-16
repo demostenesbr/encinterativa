@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <img
+      alt="Colecionáveis"
+      class="colections-item-image"
+      src="@/assets/img/home/logo-promo.png"
+      width="578"
+      height="647"
+    />
+  </div>
+</template>

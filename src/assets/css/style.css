@@ -1,5 +1,5 @@
 .background-textured {
-  background-image: url('@/assets/img/bg/bg-azul.jpg');
+  background-image: url("@/assets/img/bg/bg-azul.jpg");
   background-position: relative;
   display: block;
   width: 100%;
@@ -18,4 +18,8 @@
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.tabs {
+  overflow-x: hidden;
 }
