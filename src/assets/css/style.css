@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 .background-textured {
   background-image: url("@/assets/img/bg/bg-azul.jpg");
   background-position: relative;
@@ -20,6 +22,28 @@
   height: 100%;
 }
 
+.menu-background {
+  background-color: #f8cd1f;
+  display: block;
+}
+.link-background {
+  background-color: #074a75;
+  display: block;
+}
+
 .tabs {
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "LatinotypeTrendSansFive";
+}
+
+p {
+  font-family: "BrandonGrotesqueBlack";
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="items-center justify-center px-5 py-5">
-    <h3>Compre agora e participe</h3>
+    <h3 class="text-white uppercase underline text-5xl my-5 px-5 py-0">Compre agora e participe</h3>
     <div class="grid grid-cols-2 px-5 py-5">
       <div class="grid items-center justify-center px-5 py-5">
         <img

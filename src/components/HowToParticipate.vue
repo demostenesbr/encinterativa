@@ -1,6 +1,6 @@
 <template>
-  <div class="background-external-solid">
-    <h2>Como Participar</h2>
+  <div class="background-external-solid px-0 py-10">
+    <h3 class="text-white uppercase underline text-5xl px-5 py-0">Como Participar</h3>
     <div class="items-center justify-center mx-10 px-5 py-5">
       <div class="grid grid-cols-4 gap-4 px-10 py-5">
         <div class="grid">
@@ -44,8 +44,8 @@
         <div class="grid grid-cols-3 gap-4 px-10 py-5">
           <div class="grid">
             <img
-              alt="Unilever"
-              class="logo-unilever"
+              alt="Squeeze Hellmann's"
+              class=""
               src="@/assets/img/como-participar/extra-1.png"
               width="291"
               height="177"
@@ -53,8 +53,8 @@
           </div>
           <div class="grid">
             <img
-              alt="Unilever"
-              class="logo-unilever"
+              alt="Squeeze Supreme Hellmann's"
+              class=""
               src="@/assets/img/como-participar/extra-2.png"
               width="291"
               height="177"
@@ -62,18 +62,18 @@
           </div>
           <div class="grid">
             <img
-              alt="Unilever"
-              class="logo-unilever"
+              alt="Batata Ruffles"
+              class=""
               src="@/assets/img/como-participar/extra-3.png"
               width="449"
               height="177"
             />
           </div>
         </div>
-        <div class="grid items-center justify-center px-5 py-5">
+        <div class="grid items-center justify-center">
           <div class="grid">
             <img
-              alt="Unilever"
+              alt="Hamburgueria Hellmann's"
               class=""
               src="@/assets/img/como-participar/extra-4.png"
               width="371"
@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="grid px-5 py-5">
+      <div class="grid">
         <div class="items-center justify-center">
           <button
             class="rounded-full uppercase font-black text-4xl mx-10 p-6 bg-yellow-300 hover:text-blue-600 hover:bg-amber-400 active:bg-amber-500 focus:outline-none focus:ring focus:ring-amber-500"
